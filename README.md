@@ -74,7 +74,7 @@ streamlit run smsemail.py
 ## Application 
 You can also access the deployed application online:
  ```sh
-website link: https://smsemailclassifiernlp.streamlit.app/
+[Spam classifier for sms and email](https://smsemailclassifiernlp.streamlit.app/).
  ```
 
 
