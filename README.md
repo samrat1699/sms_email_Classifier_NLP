@@ -10,6 +10,7 @@ This project is a Streamlit web application that classifies SMS and email messag
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Application](#Application)
 
 ## Installation
 
@@ -69,3 +70,7 @@ To run the Streamlit app, execute the following command in your terminal:
 
 ```sh
 streamlit run smsemail.py
+
+## Application 
+---sh
+website link: https://smsemailclassifiernlp.streamlit.app/
