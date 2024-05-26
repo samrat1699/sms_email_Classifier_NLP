@@ -24,10 +24,10 @@ def transform_text(text):
     return " ".join(y)
 
 # Load the trained vectorizers and models
-sms_tfidf = pickle.load(open('models\Smsvectorizer.pkl', 'rb'))
-sms_model = pickle.load(open('models\Smsmodel.pkl', 'rb'))
-email_tfidf = pickle.load(open('models\Emailvectorizer.pkl', 'rb'))
-email_model = pickle.load(open('models\emailmodel.pkl', 'rb'))
+sms_tfidf = pickle.load(open('Smsvectorizer.pkl', 'rb'))
+sms_model = pickle.load(open('Smsmodel.pkl', 'rb'))
+email_tfidf = pickle.load(open('Emailvectorizer.pkl', 'rb'))
+email_model = pickle.load(open('emailmodel.pkl', 'rb'))
 
 # Streamlit app title
 st.title("Spam Classifier for SMS and Email")
