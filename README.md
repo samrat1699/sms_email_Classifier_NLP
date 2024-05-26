@@ -70,7 +70,12 @@ To run the Streamlit app, execute the following command in your terminal:
 
 ```sh
 streamlit run smsemail.py
-
+ ```
 ## Application 
----sh
+You can also access the deployed application online:
+ ```sh
 website link: https://smsemailclassifiernlp.streamlit.app/
+ ```
+
+
+
