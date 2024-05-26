@@ -61,7 +61,7 @@ if st.button('Predict'):
         st.write(f"Probability of Ham: {prob_ham * 100:.2f}%")
         st.write(f"Probability of Spam: {prob_spam * 100:.2f}%")
 
-        st.title("Probabilities of being spam and ham visualization")
+        st.title("Probabilities of being spam and ham")
         # Visualization
         st.progress(int(prob_spam * 100))  # Show a progress bar for the spam probability
         
